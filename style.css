@@ -638,8 +638,16 @@ form .form_footer{
 .right_sub_cont .per_link i{
     font-size: 22px;
     margin-right: 10px;
+    color: blue;
 }
 
+.right_sub_cont .per_link .wtp{
+    color: green;
+}
+
+.right_sub_cont .per_link .ph{
+    color: #555;
+}
 .right_sub_cont .per_link a{
     font-size: 18px;
 }
