@@ -623,6 +623,7 @@ form .form_footer{
     width: 50%;
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 .contact_cont .con_right .right_sub_cont{
     width: 100%;
