@@ -624,22 +624,22 @@ form .form_footer{
     display: flex;
     flex-direction: column;
 }
-.contact_cont .con_right .sub_cont{
+.contact_cont .con_right .right_sub_cont{
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.contact_cont .con_right .sub_cont .per_link{
+.contact_cont .con_right .right_sub_cont .per_link{
     margin: 10px 0px;
 }
 
-.sub_cont .per_link i{
+.right_sub_cont .per_link i{
     font-size: 22px;
     margin-right: 10px;
 }
 
-.sub_cont .per_link a{
+.right_sub_cont .per_link a{
     font-size: 18px;
 }
 
@@ -693,12 +693,28 @@ form .form_footer{
 }
 
 @media  (max-width:920px){
-    .con_right .sub_cont .per_link{
+    .con_right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .con_right .right_sub_cont{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .right_sub_cont .per_link{
+        width: 100%;
         display: flex;
     }
 
-    .sub_cont .per_link a{
-        font-size: 16px;        
+    .right_sub_cont .per_link  i{
+        font-size: 16px;
+    }
+
+    .right_sub_cont .per_link a{
+        font-size: 12px;        
     }
     .container{
         height: 50%;
