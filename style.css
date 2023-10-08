@@ -657,6 +657,23 @@ form .form_footer{
 }
 
 
+.button{
+    width: 100%;
+    margin: 20px 0px;
+
+}
+
+.button a{
+    padding: 8px 15px;
+    background-color: #ff523b;
+    transition: .4s;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 90%;
+}
+.button a:hover{
+    background-color: #563434;
+}
 
 
 @media(max-width:1200px){
