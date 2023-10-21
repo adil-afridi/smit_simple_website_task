@@ -725,10 +725,16 @@ form .form_footer{
         align-items: center;
     }
     .con_right{
-        height: 100%;
+        width: 100%;
         margin: 20px 0px;
         margin-top: 40px;
     }
+
+    .con_right .cont_content{
+        width: 100%;
+        padding: 0px;
+    }
+
     .con_left .image{
         width: 100%;
         height: 100%;
